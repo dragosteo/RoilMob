@@ -73,7 +73,7 @@ body {
   text-align: center;
 }
 .showcase{
-  background:url("src/showcase.png")
+  background:url("src/cacamaca.jpg") center no-repeat;
 }
 #message{
   text-align: center;
@@ -137,6 +137,27 @@ body {
   max-width: 100%;
   height: 40vh;
 }
-/*grid two*
-
-  
+/*grid two*/
+.grid-container-two{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+.grid-item-two{
+  text-align: center;
+}
+.leftimg{
+  background: url("src/architecture-1857175_1920.jpg") center no-repeat;
+}
+.rightimg{
+  background: url("src/kitchen-1940174_1920.jpg") center no-repeat;
+}
+#scrisstanga{
+  margin-top: 60vh;
+  font-size:40px;
+}
+#scrisdreapta{
+  font-size: 40px;
+  margin-top: 40vh;
+  color: white;
+}
