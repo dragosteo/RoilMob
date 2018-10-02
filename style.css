@@ -87,6 +87,11 @@ body {
   border-radius: 40px;
   font-size: 26px;
   background: #e4dfdf;
+  position: absolute;
+  left:    0;
+  bottom:   0;
+  margin-left: 3.5rem;
+  margin-bottom: 3rem;
 }
 #leftbtn:hover{
   background: rgba(33,174,198,1);
@@ -96,7 +101,7 @@ body {
 #showmsg{
 
   font-size:32px;
-  margin: 8rem 0rem 41.5vh 4rem;
+  margin: 8rem 0rem 26.5% 4rem;
 
 }
 .leftone{
@@ -105,7 +110,8 @@ body {
 }
 #rightbtn{
   
-  margin-left: 5rem;
+  margin-right: 63%;
+  margin-bottom: 3rem;
   border: none;
   width: 250px;
   height: 60px;
@@ -116,6 +122,10 @@ body {
   background: -webkit-linear-gradient(left, rgba(33,174,198,1) 0%,rgba(229,229,229,0.23) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, rgba(33,174,198,1) 0%,rgba(229,229,229,0.23) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21aec6', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 */
+  position: absolute;
+  right:    0;
+  bottom:   0;
+  
 }
 #rightbtn:hover{
   background: rgba(33,174,198,1);
