@@ -4,52 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
-    <title>Document</title>
+    <script
+     src="https://code.jquery.com/jquery-3.3.1.min.js"
+     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+     <script src="main.js"></script>
+    <title>RoilMob | Furniture | Home design | Mobila</title>
 </head>
 <body>
-
-   <!--Menu-->
-   <div class="topnav">
-    <a class="active" href="#home"><img id="Logo"src="src/RoilLogo.png"></a>
-    <div class="topnav-right">
-      <a href="#search" class="jos">Acasa</a>
-      <a href="#about" class="jos">Produse</a>
-      <a href="#about" class="jos">Contact</a>
-    </div>
-  </div>
-  <!--Grid Split Main Page-->
-  <div class="grid-container">
-    <div class="grid-item cent">
-     
-      <p id="message">Nu te mai limita la mobila deja facuta. Mobila ar trebui sa te reprezinte. Noi cream mobila pe comanda care sa reflecte personalitatea ta.</p>
-      <button id="leftbtn">Suna-ne</button>
-    </div>
-    <div class="grid-item showcase">
-      <h1 class="leftone">Creaza-ti propriul design.</h1>
-      <p id=showmsg>Fii propriul tau designer.</p>
-      <button id="rightbtn">Despre Noi</button>
-    </div>
-  </div>
-
-  <!--Business-->
-  <div class="grid-container-two">
-    <div class="grid-item-two leftimg">
-      <h2 id="scrisstanga">Proiecteaza-ti propria ta mobila</h2>
-    </div>
-    <div class="grid-item-two rightimg">
-      <h2 id="scrisdreapta">Alege din mobilierul nostru deja facut</h2>
-    </div>
-  </div>
-
-  <div class="parteners">
     
-  </div>
-      
+    <header class="showcase">
+        <div class="showback">
+            <nav class='cf'>
+                    <ul class='cf'>
+                      <li>
+                        <a href='#'>Acasa</a>
+                      </li>
+                      <li>
+                        <a href='#'>Mobila</a>
+                      </li>
+                      <li>
+                        <a href='#'>Contact</a>
+                      </li>
+                    </ul>
+                    <a href='#' id='openup'>RoilMob</a>
+                  </nav>
+        <div class="content">
+            <img src="src/Logo.png" alt="logo" class="logo">
+            <div class="title">Mobila ar trebui sa te reprezinte</div>
+            <div class="text">Noi facem mobila pe comanda in functie de nevoile tale</div>
+        </div>
+    </div>
+    </header>
+
+    <!--Servicii-->
+    <section class="services">
+        <div class="container grid-3">
+            <div class="box">
+                <img src="src/icon1.png" alt="ico" class="icon">
+                <h3>Mobila Noastra</h3>
+                <p>Cumpara mobila direct din showroom-ul nostru</p>
+
+            </div>
+            <div class="box">
+                    <img src="src/icon2.png" alt="ico" class="icon">
+                    <h3>Contacteaza-ne</h3>
+                    <p>Suna-ne pentru comenzi</p>
+    
+            </div>
+            <div class="box">
+                    <img src="src/icon3.png" alt="ico" class="icon">
+                    <h3>Iti proiectam noi</h3>
+                    <p>Facem orice fel de mobila pe comanda</p>
+    
+            </div>
+                    
+        </div>
+
+    </section>    
+    <!--Mobila/Project-->
+    <section class="mobila">
+        <div class="cont2 grid-2">
+            <div class="left">
+                <a href="#">
+                <h2 class="ltext">
+                    Proiecteaza-ti mobila
+                </h2>
+                <p class="ltext-small">
+                    Spune-ne ideile tale si noi le vom aduce la viata
+                </p>
+            </a>    
+            </div>
+
+
+            <div class="right">
+                <a href="#">
+                <h2 class="rtext">
+                    Mobila deja facuta
+                </h2>
+                <p class="rtext-small">
+                    Alege din mobilierul nostru din magazin
+                </p>
+            </a>
+            </div>
+        </div>
+    </section>
+    <!--Parteners-->
+    <section class="partener">
+        <div class="part">
+
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="center">
+        <p>RoilMob made by Teo Bajenaru and Dragos Toma</p>
+    </footer>
 </body>
 </html>
