@@ -293,6 +293,7 @@ a{
   .box{
     border-bottom: #333 dashed 1px;
     padding: 1.2rem 1rem;
+  
   }
   .left, .right{
     padding: 1rem;
@@ -309,4 +310,24 @@ a{
   .center{
     font-size: 12px;
   }
+}
+@media(max-width: 900px){
+  .grid-3{
+    grid-template-columns: 1fr;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .box{
+    border-bottom: #333 dashed 1px;
+    padding: 1.2rem 1rem;
+    width: auto;
+   
+  }
+  
+  .partener{
+    display: none;
+  }
+ 
 }
