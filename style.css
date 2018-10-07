@@ -4,6 +4,9 @@ body{
     color: rgb(43, 43, 43);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.showcase{
+  text-align: center;
+}
 .showback{
     content:'';
     height: 100vh;
@@ -25,18 +28,16 @@ body{
     -webkit-filter: blur(0px);
 
 }
-.showcase:hover .content{
-    filter: blur(0.5px);
-    -webkit-filter: blur(0.5px);
+.centcont{
+  text-align: center;
 }
 .content{
    
     z-index: 1;
     top: 10%;
     left: 50%;
-    margin-top :105px;
-    margin-left: 42.5%;
-    width: 300px;
+    margin :0 auto;
+    width: 500px;
     height: 350px;
     text-align: center;
     transition: all 1000ms;
@@ -46,13 +47,14 @@ body{
     width:  250px;
 }
 .content .title{
-    font-size:2.4rem;
+    font-size:3rem;
     margin-top: 1rem;
 }
 .content .text{
     line-height: 1.7;
     margin-top: 1rem;
     color: rgb(0, 0, 0);
+    font-size:1.5rem;
 }
 
 
@@ -88,7 +90,7 @@ body{
     display: none;
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 560px) {
     h1 {
       font-size: 2.8em;
     }
@@ -151,6 +153,7 @@ body{
   }
   
   /* For IE 6/7 (trigger hasLayout) */
+  /*sare codul*/
   .icon{
     width: 150px;
     height: 150px;
@@ -258,12 +261,17 @@ a{
 
   .showback{
     height: 60vh;
-    margin-left: 0;
+    
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    text-align: center;
+    margin: 0 auto;
+
   }
+  
   .content{
     top:5%;
-    margin-top: 5px;
-    margin-left: 2rem;
+    width: 250px;
   }
   .content .logo{
     height: 170px;
@@ -271,6 +279,10 @@ a{
   }
   .content .text{
     display: none;
+  }
+  .content .title{
+    
+    font-size: 1.5rem;
   }
 
   .grid-3, .grid-2{
