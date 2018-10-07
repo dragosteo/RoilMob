@@ -165,7 +165,8 @@ body{
     max-width: 960px;
     margin: auto;
     overflow: hidden;
-    padding: 4rem 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     color: #fff;
     text-align: center;
   }
@@ -287,7 +288,7 @@ a{
 
   .grid-3, .grid-2{
     grid-template-columns: 1fr;
-
+    
   }
   
   .box{
@@ -314,7 +315,7 @@ a{
 @media(max-width: 900px){
   .grid-3{
     grid-template-columns: 1fr;
-    width: 100%;
+    width: auto;
     text-align: center;
     margin: 0 auto;
   }
